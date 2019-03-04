@@ -187,10 +187,10 @@ body {
 }
 
 .intro p {
-    font-size: 14px;
+    font-size: 1em;
     line-height: 19px;
     margin-bottom: 8px;
-    color: #4a4a4a;
+    color: #5a5a5a;
 }
 
 .intro p:last-child {
@@ -205,9 +205,10 @@ body {
 .contact-info a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.2rem;
     line-height: 42px;
     display: block;
+    letter-spacing: 1px;
 }
 
 .contact-info li img {
@@ -216,7 +217,7 @@ body {
 
 section h2 {
     text-align: center;
-    font-size: 24px;
+    font-size: 1.6rem;
     line-height: 32px;
     color: #1736DC;
     margin-bottom: 48px;
@@ -258,8 +259,8 @@ section h2 {
 .skill h3 {
     text-align: center;
     margin-bottom: 26px;
-    font-size: 18px;
-    color: #4a4a4a;
+    font-size: 20px;
+    color: #5A5A5A;
 }
 
 .skill img {
@@ -276,8 +277,8 @@ section h2 {
     list-style: disc;
     list-style-position: inside;
     line-height: 18px;
-    color: #4A4A4A;
-    font-size: 12px;
+    color: #5A5A5A;
+    font-size: 14px;
     padding-left: 18px;
 }
 
@@ -364,6 +365,10 @@ section h2 {
     background: #FFFFFF;
 }
 
+.direction-r:hover, .direction-l:hover {
+    box-shadow: 0 0 10px rgba(251, 86, 191, 0.5);
+}
+
 .duration-wrapper {
     position: relative;
     display: inline-block;
@@ -372,8 +377,8 @@ section h2 {
 }
 
 .duration {
-    color: #4A4A4A;
-    font-size: 12px;
+    color: #5A5A5A;
+    font-size: 14px;
     letter-spacing: 0.53px;
     line-height: 16px;
 }
@@ -399,21 +404,21 @@ section h2 {
 
 .job-title {
     color: #8A1737;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.53px;
     margin-bottom: 12px;
 }
 
 .company {
-    font-size: 12px;
-    color: #4A4A4A;
+    font-size: 14px;
+    color: #5A5A5A;
     letter-spacing: 0.53px;
     margin-bottom: 10px;
 }
 
 .job-desc {
-    font-size: 10px;
+    font-size: 12px;
     color: #9B9B9B;
     letter-spacing: 0.44px;
     line-height: 18px;
@@ -475,7 +480,7 @@ section h2 {
 
 .profolio li p {
     font-size: 14px;
-    color: #4A4A4A;
+    color: #5A5A5A;
     line-height: 19px margin-bottom: 7px;
     padding: 0 8px;
     margin-bottom: 9px;
@@ -523,7 +528,7 @@ section h2 {
     margin-left: 44px;
     max-width: 442px;
     font-size: 14px;
-    color: #4A4A4A;
+    color: #5A5A5A;
     line-height: 26px;
 }
 
