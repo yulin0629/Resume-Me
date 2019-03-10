@@ -141,12 +141,6 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both
-}
-
 .text-center {
     text-align: center
 }
@@ -163,9 +157,10 @@ body {
 
 .header {
     padding-top: 124px;
-    min-height: 399px;
     background-image: url(../img/img-headerShape.png);
     margin-bottom: 130px;
+    width: 100%;
+    overflow: auto;
 }
 
 .intro {
@@ -221,6 +216,11 @@ section h2 {
     line-height: 32px;
     color: #1736DC;
     margin-bottom: 48px;
+}
+
+.skills {
+    overflow: auto;
+    width: 100%;
 }
 
 .skills>ul {
@@ -426,6 +426,13 @@ section h2 {
 
 .profolio {
     margin-bottom: 98px;
+    overflow: auto;
+    width: 100%;
+}
+
+.about {
+    overflow: auto;
+    width: 100%;
 }
 
 .profolio>h2,
@@ -453,14 +460,6 @@ section h2 {
 
 .profolio li:last-child {
     margin-right: 0px;
-}
-
-.profolio:after {
-    content: "";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
 }
 
 .profolio .logo-work {
