@@ -242,9 +242,10 @@ section h2 {
     text-align: center;
     padding: 25px;
     margin-bottom: 56px;
+    min-height: 276px;
 }
 
-.skill:first-child {
+.skill:nth-child(1) {
     border-color: #F58D23;
 }
 
@@ -252,8 +253,20 @@ section h2 {
     border-color: #539E43;
 }
 
-.skill:last-child {
+.skill:nth-child(3) {
     border-color: #6762A6;
+}
+
+.skill:nth-child(4) {
+    border-color: #36C5EE;
+}
+
+.skill:nth-child(5) {
+    border-color: #F83d48;
+}
+
+.skill:nth-child(6) {
+    border-color: #777777;
 }
 
 .skill h3 {
@@ -264,11 +277,11 @@ section h2 {
 }
 
 .skill img {
-    min-height: 79px;
+    height: 79px;
     margin-bottom: 23px;
 }
 
-.skills li:last-child {
+.skills li:nth-child(3n) {
     margin-right: 0px;
 }
 
@@ -288,7 +301,7 @@ section h2 {
 
 .timeline {
     position: relative;
-    width: 570px;
+    width: 770px;
     margin: 0 auto;
     padding-top: 85px;
     padding-bottom: 46px;
@@ -346,7 +359,7 @@ section h2 {
 
 .direction-r {
     position: relative;
-    width: 260px;
+    width: 360px;
     float: right;
     border-radius: 10px;
     border: 1px solid #FB56BF;
@@ -356,7 +369,7 @@ section h2 {
 
 .direction-l {
     position: relative;
-    width: 260px;
+    width: 360px;
     float: left;
     text-align: right;
     border-radius: 10px;
@@ -404,22 +417,22 @@ section h2 {
 
 .job-title {
     color: #8A1737;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 16px;
     letter-spacing: 0.53px;
     margin-bottom: 12px;
 }
 
 .company {
-    font-size: 14px;
+    font-size: 16px;
     color: #5A5A5A;
     letter-spacing: 0.53px;
     margin-bottom: 10px;
 }
 
 .job-desc {
-    font-size: 12px;
-    color: #9B9B9B;
+    font-size: 14px;
+    color: #7B7B7B;
     letter-spacing: 0.44px;
     line-height: 18px;
 }
@@ -447,18 +460,21 @@ section h2 {
     margin-right: 69px;
 }
 
-.profolio li {
+.profolio>ul>li {
     width: 32%;
     background-color: white;
     margin-right: 16px;
+    margin-bottom: 16px;
     border-radius: 4px;
+    min-height: 270px;
+    box-shadow: 0px 1px 1px RGBA(0, 0, 0, .2);
 }
 
-.profolio li:hover {
+.profolio>ul>li:hover {
     box-shadow: 0 1px 4px 0 RGBA(0, 0, 0, .4)
 }
 
-.profolio li:last-child {
+.profolio>ul>li:nth-child(3n) {
     margin-right: 0px;
 }
 
@@ -469,7 +485,11 @@ section h2 {
     margin-bottom: 9px;
 }
 
-.profolio li h3 {
+.profolio .logo-work img {
+    height: 80%;
+}
+
+.profolio .profolio-list>li h3 {
     font-size: 14px;
     line-height: 19px color: #000000;
     margin-bottom: 7px;
@@ -477,7 +497,7 @@ section h2 {
     font-weight: bold;
 }
 
-.profolio li p {
+.profolio .profolio-list>li p {
     font-size: 14px;
     color: #5A5A5A;
     line-height: 19px margin-bottom: 7px;
@@ -504,6 +524,10 @@ section h2 {
 
 .bg-pink {
     background-color: #F5B8E1;
+}
+
+.bg-grey {
+    background-color: #DFDFDF;
 }
 
 .bg-dark {
@@ -542,4 +566,8 @@ section h2 {
     font-size: 16px;
     color: #000000;
     line-height: 87px;
+}
+
+.app-icon {
+    border-radius: 28px;
 }
