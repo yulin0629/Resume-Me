@@ -455,7 +455,7 @@ section h2 {
     margin-bottom: 46px;
 }
 
-.profolio ul {
+.profolio>ul {
     margin-left: 69px;
     margin-right: 69px;
 }
@@ -491,7 +491,8 @@ section h2 {
 
 .profolio .profolio-list>li h3 {
     font-size: 14px;
-    line-height: 19px color: #000000;
+    line-height: 19px ;
+    color: #000000;
     margin-bottom: 7px;
     padding: 0 8px;
     font-weight: bold;
@@ -500,9 +501,21 @@ section h2 {
 .profolio .profolio-list>li p {
     font-size: 14px;
     color: #5A5A5A;
-    line-height: 19px margin-bottom: 7px;
+    line-height: 19px;
+    margin-bottom: 7px;
     padding: 0 8px;
     margin-bottom: 9px;
+}
+
+.profolio .profolio-list>li li {
+    font-size: 14px;
+    color: #5A5A5A;
+    line-height: 19px;
+    margin-bottom: 7px;
+    padding: 0 8px;
+    margin-bottom: 9px;
+    list-style: disc;
+    list-style-position: inside;
 }
 
 .profolio a {
