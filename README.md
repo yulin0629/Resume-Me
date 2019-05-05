@@ -66,10 +66,10 @@ UI的部份，我們設計了一個小型的框架，讀取Json檔，轉成界�
 
 以下均为我熟練使用的技能
 
-- 程式語言：C#/JavaScript/Python/C/C++/Java
+- 程式語言：C#/JavaScript/Python/C/C++/Java/Swift/Objective-C
 - Web框架：.Net MVC/Node\.js express/Django/.Net Webform
 - 前端：Bootstrap/HTML5/CSS3/Vue
-- 資料庫：MySQL/MySql/SQLite
+- 資料庫：MySQL/MySql/SQLite/MongoDB/Firebase
 - 版本管理、文檔：Svn/Git/Markdown
 - 雲平台：AWS EC2, S3, RDS
 
